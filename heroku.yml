@@ -1,1 +1,5 @@
-worker: python main.py
+build:
+  docker:
+    worker: Dockerfile
+run:
+  worker: python main.py
