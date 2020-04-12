@@ -30,3 +30,4 @@ def button(update, context):
 def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Hello, and welcome to Stocks2020 Bot!"
                                                                     " what would you like to do?")
+    context.bot.send_message(chat_id=update.effective_chat.id, text="/stocks")
